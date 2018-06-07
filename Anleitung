@@ -1,0 +1,22 @@
+1)
+Ich habe lange überlegt, wie man die Körerteile um einen beliebigen Punkt drehen kann, dass ist in SpriteKit nicht ganz so einfach.
+Die Lösung ist dabei doch ganz simpel. Die Grafiken Sie so groß. das der Drehpunkt genau in der Mittel liegt. Zu dem sichbaren Bereich
+gibt es also meistens einen transparenten Anteil der genau so groß ist. So ist der Mittelpunkt, und somit der Drehpunkt, genau
+da wo er sein muss.
+
+2)
+Über die Klasse SkeletonJointsDefinition wird festgelegt, wie die Positionen der einzelnen Körperteile zueinander in Beziehung stehen.
+Dabei hat jedes Körperteil eine relative Position zu einem Elternkörperteil. Der Unterarm ist also mit dem Oberarm vermunden und seine
+Position ist daher relativ zu ihm. Die Positionen zu ermitteln kann ein wenig Aufwändig sein, ich habe es einfach ausprobiert, bis es passte.
+Zum Glück ist der Körper symetrisch und so kann man die Werte spieglen.
+Da sich der Körper zur Laufzeit wahrscheinlich nicht ändern, geschieht die Zuweisung in der KasoerScene.m in der - (void)setupSkeleton
+Methode.
+
+3)
+Die Klasse SkeletonPoseDefinition gibt an, in welchem Winkel die Körperteile gedreht, oder im Fall der Augen, bewegt, werden sollen.
+Im Programm hole ich mir die Werte von den Slidern in der ViewController.m. Die Zuweisung geht dann an die SpriteKit-Szene mit
+setPoseDefinition.
+
+SkeletonPoseDefinition *pose = [self getPoseFromView];
+[self.scene setPoseDefinition:pose];
+

@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F50576019BB74B30067F80A /* SkeletonJointsDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F50575F19BB74B30067F80A /* SkeletonJointsDefinition.m */; };
+		3F50576319BB78F20067F80A /* SkeletonPoseDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F50576219BB78F20067F80A /* SkeletonPoseDefinition.m */; };
+		3F758DFB19D9272B0049A8D7 /* Anleitung in Resources */ = {isa = PBXBuildFile; fileRef = 3F758DFA19D9272B0049A8D7 /* Anleitung */; };
+		3FA8631919B7962A00DD0F3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA8631819B7962A00DD0F3F /* Foundation.framework */; };
+		3FA8631B19B7962A00DD0F3F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA8631A19B7962A00DD0F3F /* CoreGraphics.framework */; };
+		3FA8631D19B7962A00DD0F3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA8631C19B7962A00DD0F3F /* UIKit.framework */; };
+		3FA8632319B7962A00DD0F3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FA8632119B7962A00DD0F3F /* InfoPlist.strings */; };
+		3FA8632519B7962A00DD0F3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8632419B7962A00DD0F3F /* main.m */; };
+		3FA8632919B7962A00DD0F3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8632819B7962A00DD0F3F /* AppDelegate.m */; };
+		3FA8632C19B7962A00DD0F3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA8632A19B7962A00DD0F3F /* Main.storyboard */; };
+		3FA8632F19B7962A00DD0F3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8632E19B7962A00DD0F3F /* ViewController.m */; };
+		3FA8633119B7962A00DD0F3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA8633019B7962A00DD0F3F /* Images.xcassets */; };
+		3FA8633819B7962A00DD0F3F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA8633719B7962A00DD0F3F /* XCTest.framework */; };
+		3FA8633919B7962A00DD0F3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA8631819B7962A00DD0F3F /* Foundation.framework */; };
+		3FA8633A19B7962A00DD0F3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA8631C19B7962A00DD0F3F /* UIKit.framework */; };
+		3FA8634219B7962A00DD0F3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FA8634019B7962A00DD0F3F /* InfoPlist.strings */; };
+		3FA8634419B7962A00DD0F3F /* KasperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8634319B7962A00DD0F3F /* KasperTests.m */; };
+		3FA8635819B79A1E00DD0F3F /* KasperScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8635719B79A1E00DD0F3F /* KasperScene.m */; };
+		3FE77F3119D1F91A005A3724 /* armJoint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE77F2B19D1F91A005A3724 /* armJoint@2x.png */; };
+		3FE77F3219D1F91A005A3724 /* body@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE77F2C19D1F91A005A3724 /* body@2x.png */; };
+		3FE77F3319D1F91A005A3724 /* eyes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE77F2D19D1F91A005A3724 /* eyes@2x.png */; };
+		3FE77F3419D1F91A005A3724 /* head@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE77F2E19D1F91A005A3724 /* head@2x.png */; };
+		3FE77F3519D1F91A005A3724 /* legjoint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE77F2F19D1F91A005A3724 /* legjoint@2x.png */; };
+		3FE77F3619D1F91A005A3724 /* shoulder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE77F3019D1F91A005A3724 /* shoulder@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FA8633B19B7962A00DD0F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA8630D19B7962A00DD0F3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA8631419B7962A00DD0F3F;
+			remoteInfo = Kasper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F50575E19BB74B30067F80A /* SkeletonJointsDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkeletonJointsDefinition.h; sourceTree = "<group>"; };
+		3F50575F19BB74B30067F80A /* SkeletonJointsDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkeletonJointsDefinition.m; sourceTree = "<group>"; };
+		3F50576119BB78F20067F80A /* SkeletonPoseDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SkeletonPoseDefinition.h; path = ../SkeletonPoseDefinition.h; sourceTree = "<group>"; };
+		3F50576219BB78F20067F80A /* SkeletonPoseDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SkeletonPoseDefinition.m; path = ../SkeletonPoseDefinition.m; sourceTree = "<group>"; };
+		3F758DFA19D9272B0049A8D7 /* Anleitung */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Anleitung; sourceTree = "<group>"; };
+		3FA8631519B7962A00DD0F3F /* Kasper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kasper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA8631819B7962A00DD0F3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3FA8631A19B7962A00DD0F3F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3FA8631C19B7962A00DD0F3F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3FA8632019B7962A00DD0F3F /* Kasper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kasper-Info.plist"; sourceTree = "<group>"; };
+		3FA8632219B7962A00DD0F3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FA8632419B7962A00DD0F3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FA8632619B7962A00DD0F3F /* Kasper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kasper-Prefix.pch"; sourceTree = "<group>"; };
+		3FA8632719B7962A00DD0F3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FA8632819B7962A00DD0F3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FA8632B19B7962A00DD0F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FA8632D19B7962A00DD0F3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FA8632E19B7962A00DD0F3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FA8633019B7962A00DD0F3F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3FA8633619B7962A00DD0F3F /* KasperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KasperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA8633719B7962A00DD0F3F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3FA8633F19B7962A00DD0F3F /* KasperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KasperTests-Info.plist"; sourceTree = "<group>"; };
+		3FA8634119B7962A00DD0F3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FA8634319B7962A00DD0F3F /* KasperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KasperTests.m; sourceTree = "<group>"; };
+		3FA8635619B79A1E00DD0F3F /* KasperScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KasperScene.h; sourceTree = "<group>"; };
+		3FA8635719B79A1E00DD0F3F /* KasperScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KasperScene.m; sourceTree = "<group>"; };
+		3FE77F2B19D1F91A005A3724 /* armJoint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "armJoint@2x.png"; path = "Images/armJoint@2x.png"; sourceTree = "<group>"; };
+		3FE77F2C19D1F91A005A3724 /* body@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "body@2x.png"; path = "Images/body@2x.png"; sourceTree = "<group>"; };
+		3FE77F2D19D1F91A005A3724 /* eyes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "eyes@2x.png"; path = "Images/eyes@2x.png"; sourceTree = "<group>"; };
+		3FE77F2E19D1F91A005A3724 /* head@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "head@2x.png"; path = "Images/head@2x.png"; sourceTree = "<group>"; };
+		3FE77F2F19D1F91A005A3724 /* legjoint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "legjoint@2x.png"; path = "Images/legjoint@2x.png"; sourceTree = "<group>"; };
+		3FE77F3019D1F91A005A3724 /* shoulder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shoulder@2x.png"; path = "Images/shoulder@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA8631219B7962A00DD0F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA8631B19B7962A00DD0F3F /* CoreGraphics.framework in Frameworks */,
+				3FA8631D19B7962A00DD0F3F /* UIKit.framework in Frameworks */,
+				3FA8631919B7962A00DD0F3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA8633319B7962A00DD0F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA8633819B7962A00DD0F3F /* XCTest.framework in Frameworks */,
+				3FA8633A19B7962A00DD0F3F /* UIKit.framework in Frameworks */,
+				3FA8633919B7962A00DD0F3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FA8630C19B7962A00DD0F3F = {
+			isa = PBXGroup;
+			children = (
+				3F758DFA19D9272B0049A8D7 /* Anleitung */,
+				3FA8631E19B7962A00DD0F3F /* Kasper */,
+				3FA8633D19B7962A00DD0F3F /* KasperTests */,
+				3FA8631719B7962A00DD0F3F /* Frameworks */,
+				3FA8631619B7962A00DD0F3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FA8631619B7962A00DD0F3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FA8631519B7962A00DD0F3F /* Kasper.app */,
+				3FA8633619B7962A00DD0F3F /* KasperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FA8631719B7962A00DD0F3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FA8631819B7962A00DD0F3F /* Foundation.framework */,
+				3FA8631A19B7962A00DD0F3F /* CoreGraphics.framework */,
+				3FA8631C19B7962A00DD0F3F /* UIKit.framework */,
+				3FA8633719B7962A00DD0F3F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FA8631E19B7962A00DD0F3F /* Kasper */ = {
+			isa = PBXGroup;
+			children = (
+				3FA8634D19B799D000DD0F3F /* Images */,
+				3FA8632A19B7962A00DD0F3F /* Main.storyboard */,
+				3FA8632719B7962A00DD0F3F /* AppDelegate.h */,
+				3FA8632819B7962A00DD0F3F /* AppDelegate.m */,
+				3FA8632D19B7962A00DD0F3F /* ViewController.h */,
+				3FA8632E19B7962A00DD0F3F /* ViewController.m */,
+				3FA8633019B7962A00DD0F3F /* Images.xcassets */,
+				3FA8631F19B7962A00DD0F3F /* Supporting Files */,
+				3FA8635619B79A1E00DD0F3F /* KasperScene.h */,
+				3FA8635719B79A1E00DD0F3F /* KasperScene.m */,
+				3F50576119BB78F20067F80A /* SkeletonPoseDefinition.h */,
+				3F50576219BB78F20067F80A /* SkeletonPoseDefinition.m */,
+				3F50575E19BB74B30067F80A /* SkeletonJointsDefinition.h */,
+				3F50575F19BB74B30067F80A /* SkeletonJointsDefinition.m */,
+			);
+			path = Kasper;
+			sourceTree = "<group>";
+		};
+		3FA8631F19B7962A00DD0F3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FA8632019B7962A00DD0F3F /* Kasper-Info.plist */,
+				3FA8632119B7962A00DD0F3F /* InfoPlist.strings */,
+				3FA8632419B7962A00DD0F3F /* main.m */,
+				3FA8632619B7962A00DD0F3F /* Kasper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FA8633D19B7962A00DD0F3F /* KasperTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA8634319B7962A00DD0F3F /* KasperTests.m */,
+				3FA8633E19B7962A00DD0F3F /* Supporting Files */,
+			);
+			path = KasperTests;
+			sourceTree = "<group>";
+		};
+		3FA8633E19B7962A00DD0F3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FA8633F19B7962A00DD0F3F /* KasperTests-Info.plist */,
+				3FA8634019B7962A00DD0F3F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FA8634D19B799D000DD0F3F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3FE77F2B19D1F91A005A3724 /* armJoint@2x.png */,
+				3FE77F2C19D1F91A005A3724 /* body@2x.png */,
+				3FE77F2D19D1F91A005A3724 /* eyes@2x.png */,
+				3FE77F2E19D1F91A005A3724 /* head@2x.png */,
+				3FE77F2F19D1F91A005A3724 /* legjoint@2x.png */,
+				3FE77F3019D1F91A005A3724 /* shoulder@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FA8631419B7962A00DD0F3F /* Kasper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA8634719B7962A00DD0F3F /* Build configuration list for PBXNativeTarget "Kasper" */;
+			buildPhases = (
+				3FA8631119B7962A00DD0F3F /* Sources */,
+				3FA8631219B7962A00DD0F3F /* Frameworks */,
+				3FA8631319B7962A00DD0F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kasper;
+			productName = Kasper;
+			productReference = 3FA8631519B7962A00DD0F3F /* Kasper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FA8633519B7962A00DD0F3F /* KasperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA8634A19B7962A00DD0F3F /* Build configuration list for PBXNativeTarget "KasperTests" */;
+			buildPhases = (
+				3FA8633219B7962A00DD0F3F /* Sources */,
+				3FA8633319B7962A00DD0F3F /* Frameworks */,
+				3FA8633419B7962A00DD0F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA8633C19B7962A00DD0F3F /* PBXTargetDependency */,
+			);
+			name = KasperTests;
+			productName = KasperTests;
+			productReference = 3FA8633619B7962A00DD0F3F /* KasperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FA8630D19B7962A00DD0F3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Holger Hinzberg";
+				TargetAttributes = {
+					3FA8631419B7962A00DD0F3F = {
+						DevelopmentTeam = Q4JYUA6UF4;
+					};
+					3FA8633519B7962A00DD0F3F = {
+						TestTargetID = 3FA8631419B7962A00DD0F3F;
+					};
+				};
+			};
+			buildConfigurationList = 3FA8631019B7962A00DD0F3F /* Build configuration list for PBXProject "Kasper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FA8630C19B7962A00DD0F3F;
+			productRefGroup = 3FA8631619B7962A00DD0F3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FA8631419B7962A00DD0F3F /* Kasper */,
+				3FA8633519B7962A00DD0F3F /* KasperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FA8631319B7962A00DD0F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE77F3519D1F91A005A3724 /* legjoint@2x.png in Resources */,
+				3FE77F3419D1F91A005A3724 /* head@2x.png in Resources */,
+				3FE77F3119D1F91A005A3724 /* armJoint@2x.png in Resources */,
+				3FA8633119B7962A00DD0F3F /* Images.xcassets in Resources */,
+				3F758DFB19D9272B0049A8D7 /* Anleitung in Resources */,
+				3FE77F3319D1F91A005A3724 /* eyes@2x.png in Resources */,
+				3FE77F3219D1F91A005A3724 /* body@2x.png in Resources */,
+				3FA8632319B7962A00DD0F3F /* InfoPlist.strings in Resources */,
+				3FA8632C19B7962A00DD0F3F /* Main.storyboard in Resources */,
+				3FE77F3619D1F91A005A3724 /* shoulder@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA8633419B7962A00DD0F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA8634219B7962A00DD0F3F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FA8631119B7962A00DD0F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA8635819B79A1E00DD0F3F /* KasperScene.m in Sources */,
+				3FA8632F19B7962A00DD0F3F /* ViewController.m in Sources */,
+				3F50576319BB78F20067F80A /* SkeletonPoseDefinition.m in Sources */,
+				3FA8632919B7962A00DD0F3F /* AppDelegate.m in Sources */,
+				3F50576019BB74B30067F80A /* SkeletonJointsDefinition.m in Sources */,
+				3FA8632519B7962A00DD0F3F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA8633219B7962A00DD0F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA8634419B7962A00DD0F3F /* KasperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FA8633C19B7962A00DD0F3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA8631419B7962A00DD0F3F /* Kasper */;
+			targetProxy = 3FA8633B19B7962A00DD0F3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FA8632119B7962A00DD0F3F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA8632219B7962A00DD0F3F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3FA8632A19B7962A00DD0F3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA8632B19B7962A00DD0F3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FA8634019B7962A00DD0F3F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA8634119B7962A00DD0F3F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FA8634519B7962A00DD0F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3FA8634619B7962A00DD0F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FA8634819B7962A00DD0F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kasper/Kasper-Prefix.pch";
+				INFOPLIST_FILE = "Kasper/Kasper-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cocoa-coding.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3FA8634919B7962A00DD0F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kasper/Kasper-Prefix.pch";
+				INFOPLIST_FILE = "Kasper/Kasper-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cocoa-coding.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3FA8634B19B7962A00DD0F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kasper.app/Kasper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kasper/Kasper-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KasperTests/KasperTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cocoa-coding.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3FA8634C19B7962A00DD0F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kasper.app/Kasper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kasper/Kasper-Prefix.pch";
+				INFOPLIST_FILE = "KasperTests/KasperTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cocoa-coding.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FA8631019B7962A00DD0F3F /* Build configuration list for PBXProject "Kasper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA8634519B7962A00DD0F3F /* Debug */,
+				3FA8634619B7962A00DD0F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA8634719B7962A00DD0F3F /* Build configuration list for PBXNativeTarget "Kasper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA8634819B7962A00DD0F3F /* Debug */,
+				3FA8634919B7962A00DD0F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA8634A19B7962A00DD0F3F /* Build configuration list for PBXNativeTarget "KasperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA8634B19B7962A00DD0F3F /* Debug */,
+				3FA8634C19B7962A00DD0F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FA8630D19B7962A00DD0F3F /* Project object */;
+}

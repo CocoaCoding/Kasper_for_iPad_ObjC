@@ -1,0 +1,995 @@
+TKasper
+v6
+r1
+cCheck dependencies
+cProcessPCH /var/folders/xx/knm95ddx5ps40hgxm0x1v7140000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Kasper-Prefix-gkawglrdhynenreplxxmcwngfhiy/Kasper-Prefix.pch.pch Kasper/Kasper-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/KasperScene.o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/KasperScene.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/ViewController.o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonPoseDefinition.o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/SkeletonPoseDefinition.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/AppDelegate.o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonJointsDefinition.o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/SkeletonJointsDefinition.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/main.o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/Kasper normal i386
+cCpResource Kasper/armJoint@2x.png build/Debug-iphonesimulator/Kasper.app/armJoint@2x.png
+cCpResource Kasper/body@2x.png build/Debug-iphonesimulator/Kasper.app/body@2x.png
+cCopyStringsFile /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/en.lproj/InfoPlist.strings Kasper/en.lproj/InfoPlist.strings
+cCpResource Kasper/legjoint@2x.png build/Debug-iphonesimulator/Kasper.app/legjoint@2x.png
+cCpResource Kasper/shoulder@2x.png build/Debug-iphonesimulator/Kasper.app/shoulder@2x.png
+cCpResource Kasper/head@2x.png build/Debug-iphonesimulator/Kasper.app/head@2x.png
+cCpResource Kasper/eyes@2x.png build/Debug-iphonesimulator/Kasper.app/eyes@2x.png
+cCompileStoryboard /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/Base.lproj/Main.storyboard
+cCompileAssetCatalog /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/Images.xcassets
+cProcessInfoPlistFile /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/Info.plist /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/Kasper-Info.plist
+cGenerateDSYMFile /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app.dSYM /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/Kasper
+cTouch /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c00000000534850680000000000000198
+t1397248104
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000531F613800000000000003B4
+t1394565432
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531F613F000000000000019E
+t1394565439
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000531F6141000000000058E0E0
+t1394565441
+s5824736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000531F614100000000005B82F0
+t1394565441
+s5997296
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005348502C0000000000446820
+t1397248044
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c00000000531F614200000000003599D0
+t1394565442
+s3512784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c00000000531F614200000000002FC3B0
+t1394565442
+s3130288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000531F6142000000000004B000
+t1394565442
+s307200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531F6143000000000088D8C0
+t1394565443
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000531F61450000000000037680
+t1394565445
+s226944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000531F6145000000000048F720
+t1394565445
+s4781856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+c00000000531F6145000000000013FD70
+t1394565445
+s1310064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SpriteKit.framework/SpriteKit
+c00000000531F6146000000000024D800
+t1394565446
+s2414592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000531F61480000000001F1DE10
+t1394565448
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c00000000531F615200000000002BC360
+t1394565458
+s2868064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+c00000000531F61570000000000002338
+t1394565463
+s9016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+c00000000531F6158000000000008D370
+t1394565464
+s578416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+c00000000531F61580000000000392E20
+t1394565464
+s3747360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+c000000005375637300000000000141F0
+t1400202099
+s82416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+c00000000531F61590000000000014A80
+t1394565465
+s84608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c00000000531F61590000000000033BA0
+t1394565465
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c00000000531F6159000000000001CFB0
+t1394565465
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+c00000000531F6159000000000001B2B0
+t1394565465
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+c00000000531F615900000000000C9570
+t1394565465
+s824688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+c00000000531F61590000000000063280
+t1394565465
+s406144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+c00000000531F61590000000000008880
+t1394565465
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+c00000000531F61590000000000015080
+t1394565465
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+c00000000531F615900000000000230F0
+t1394565465
+s143600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+c00000000531F6159000000000000E380
+t1394565465
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+c00000000531F61590000000000089380
+t1394565465
+s562048
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+c00000000531F61590000000000017320
+t1394565465
+s95008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c00000000531F61590000000000039CD0
+t1394565465
+s236752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c00000000531F6159000000000000B0B0
+t1394565465
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+c00000000531F61590000000000167E80
+t1394565465
+s1474176
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c00000000531F615900000000000106A0
+t1394565465
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c00000000531F6159000000000001CE40
+t1394565465
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+c00000000531F615900000000000740C0
+t1394565465
+s475328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+c00000000531F6159000000000006CA60
+t1394565465
+s445024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+c00000000531F6159000000000001BAD0
+t1394565465
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+c00000000531F61590000000000084A20
+t1394565465
+s543264
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531F61790000000000000ADC
+t1394565497
+s2780
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c000000005348502C000000000000514C
+t1397248044
+s20812
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/AppDelegate.h
+c0000000054075EAA000000000000011D
+t1409769130
+s285
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/AppDelegate.m
+c0000000054075EAA00000000000007DF
+t1409769130
+s2015
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/Base.lproj/Main.storyboard
+c00000000540B4D3B0000000000003EF5
+t1410026811
+s16117
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/Images.xcassets
+c0000000054075EAA0000000000000088
+t1409769130
+s136
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/Kasper-Info.plist
+c0000000054075EAA000000000000050D
+t1409769130
+s1293
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/Kasper-Prefix.pch
+c0000000054075EAA0000000000000158
+t1409769130
+s344
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/KasperScene.h
+c00000000540B4D3B0000000000000132
+t1410026811
+s306
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/KasperScene.m
+c00000000540B4ACA00000000000016DD
+t1410026186
+s5853
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/SkeletonDefinition.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/SkeletonDefinition.m
+c00000000540B3F13000000000000031C
+t1410023187
+s796
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/SkeletonJointsDefinition.h
+c00000000540B413B000000000000031C
+t1410023739
+s796
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/SkeletonJointsDefinition.m
+c00000000540B42BE0000000000000339
+t1410024126
+s825
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/ViewController.h
+c0000000054075EAA00000000000000DF
+t1409769130
+s223
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/ViewController.m
+c00000000540B4D6D00000000000009BF
+t1410026861
+s2495
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/arm@2x.png
+c0000000054076150000000000000154E
+t1409769808
+s5454
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/armJoint@2x.png
+c000000005407700C000000000000157B
+t1409773580
+s5499
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/body@2x.png
+c000000005407623100000000000015A6
+t1409770033
+s5542
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/en.lproj/InfoPlist.strings
+c0000000054075EAA000000000000002D
+t1409769130
+s45
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/eyes@2x.png
+c00000000540B3A640000000000001043
+t1410021988
+s4163
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/head@2x.png
+c00000000540B3A060000000000002324
+t1410021894
+s8996
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/leg@2x.png
+c00000000540761A00000000000001548
+t1409769888
+s5448
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/legjoint@2x.png
+c0000000054077AA800000000000015BC
+t1409776296
+s5564
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/main.m
+c0000000054075EAA0000000000000159
+t1409769130
+s345
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/shoulder@2x.png
+c00000000540761F700000000000014E2
+t1409769975
+s5346
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/SkeletonPoseDefinition.h
+c00000000540B49A60000000000000338
+t1410025894
+s824
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/SkeletonPoseDefinition.m
+c00000000540B432000000000000002C7
+t1410024224
+s711
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app
+t1410026861
+s544
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app.dSYM
+t1410026812
+s102
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/Base.lproj/Main.storyboardc
+t1410026812
+s170
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/Info.plist
+t1409770547
+s868
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/Kasper
+t1410026861
+s76636
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/PkgInfo
+t1409770547
+s8
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/arm@2x.png
+t1409770546
+s5454
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/armJoint@2x.png
+t1409773667
+s5499
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/body@2x.png
+t1409770546
+s5542
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/en.lproj/InfoPlist.strings
+t1409770546
+s42
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/eyes@2x.png
+t1410022150
+s4163
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/head@2x.png
+t1410022150
+s8996
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/leg@2x.png
+t1409770546
+s5448
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/legjoint@2x.png
+t1409776489
+s5564
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/shoulder@2x.png
+t1409770546
+s5346
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/AppDelegate.o
+t1409770285
+s62480
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/Kasper.LinkFileList
+c00000000540B49A600000000000003DA
+t1410025894
+s986
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/KasperScene.o
+t1410026811
+s81268
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonDefinition.o
+c00000000540B404C000000000000531C
+t1410023500
+s21276
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonJointsDefinition.o
+t1410025895
+s21872
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonPoseDefinition.o
+t1410025895
+s19516
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/ViewController.o
+t1410026861
+s68440
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/main.o
+t1409770285
+s3636
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/assetcatalog_dependencies.txt
+t1409770547
+s299
+
+N/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/assetcatalog_generated_info.plist
+t1409770547
+s181
+
+N/usr/lib/libSystem.B.dylib
+c0000000053756362000000000000E6D0
+t1400202082
+s59088
+
+N/usr/lib/system/libcache.dylib
+c00000000526760420000000000012A00
+t1382506562
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c0000000052676025000000000002E320
+t1382506533
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c00000000526760330000000000021860
+t1382506547
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c0000000053B1BD37000000000001B610
+t1404157239
+s112144
+
+N/usr/lib/system/libcorecrypto.dylib
+c000000005267604100000000000BD920
+t1382506561
+s776480
+
+N/usr/lib/system/libdyld.dylib
+c000000005375637300000000000141F0
+t1400202099
+s82416
+
+N/usr/lib/system/libkeymgr.dylib
+c0000000052676042000000000000A120
+t1382506562
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c0000000053B1BD37000000000001D550
+t1404157239
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c00000000526760410000000000014EE0
+t1382506561
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c00000000526760440000000000010380
+t1382506564
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c0000000052676044000000000000C4C0
+t1382506564
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c000000005267604200000000000357A0
+t1382506562
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c0000000052676042000000000000C070
+t1382506562
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c00000000530299D10000000000168D00
+t1392679377
+s1477888
+
+N/usr/lib/system/libsystem_configuration.dylib
+c00000000537563700000000000010630
+t1400202096
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c0000000053B1BD37000000000001DF10
+t1404157239
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c00000000526760330000000000075B00
+t1382506547
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c0000000053B1BD37000000000007CD60
+t1404157239
+s511328
+
+N/usr/lib/system/libsystem_m.dylib
+c000000005267603300000000000766C0
+t1382506547
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c00000000530299D00000000000044DC0
+t1392679376
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c00000000526760330000000000021FA0
+t1382506547
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c00000000530CE9E3000000000002D920
+t1393355235
+s186656
+
+N/usr/lib/system/libsystem_pthread.dylib
+c0000000052676043000000000001E570
+t1382506563
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c0000000053B1BD37000000000000CC70
+t1404157239
+s52336
+
+N/usr/lib/system/libunc.dylib
+c000000005267603D000000000000C3F0
+t1382506557
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c000000005267604300000000000199F0
+t1382506563
+s104944
+
+N/var/folders/xx/knm95ddx5ps40hgxm0x1v7140000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Kasper-Prefix-gkawglrdhynenreplxxmcwngfhiy/Kasper-Prefix.pch.pch
+t1409770285
+s116916
+
+CBuild AST from /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/AppDelegate.m
+r0
+
+CBuild AST from /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/KasperScene.m
+r0
+
+CBuild AST from /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/SkeletonDefinition.m
+r0
+
+CBuild AST from /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/SkeletonJointsDefinition.m
+r0
+
+CBuild AST from /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/ViewController.m
+r0
+
+CBuild AST from /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/main.m
+r0
+
+CBuild AST from /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/SkeletonPoseDefinition.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies19c57aed84bbb941^38667ded84bbb941^---0#1#1#--18"Check dependencies36"554E6F84-05C5-4F9E-A1B5-3FD8E7DFB2FE-
+
+CCompileAssetCatalog /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/Images.xcassets
+s431463346.571731
+e431463347.762819
+r1
+xCompileAssetCatalog
+x/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app
+x/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/Assets.car
+o/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"CompileAssetCatalog build/Debug-iphonesimulator/Kasper.app Kasper/Images.xcassets81"CompileAssetCatalog build/Debug-iphonesimulator/Kasper.app Kasper/Images.xcassetsbc7992b29bb7b941^5e48c3b39bb7b941^-328"/* com.apple.actool.compilation-results *//Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/Assets.car/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@105"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/Kasper/Images.xcassets/0000000000000000^1258"CompileAssetCatalog build/Debug-iphonesimulator/Kasper.app Kasper/Images.xcassets    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.1 --target-device ipad --compress-pngs --compile /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/Images.xcassets36"1DE0A8EC-A7D3-42B8-958C-47F548EC7919-
+bD755EC0B-84A8-4E13-8779-2C434DAEECBC
+
+CCompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/AppDelegate.o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431463085.426908
+e431463085.596215
+r1
+xCompileC
+xbuild/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/AppDelegate.o
+x/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/AppDelegate.m
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/AppDelegate.m185"CompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/AppDelegate.o Kasper/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1a6d6dad9ab7b941^d7a398ad9ab7b941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/Kasper/AppDelegate.m0000000000000000^3998"CompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/AppDelegate.o Kasper/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-generated-files.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-own-target-headers.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-all-target-headers.hmap -iquote /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-project-headers.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/DerivedSources/i386 -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/DerivedSources -F/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator -include /var/folders/xx/knm95ddx5ps40hgxm0x1v7140000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Kasper-Prefix-gkawglrdhynenreplxxmcwngfhiy/Kasper-Prefix.pch -MMD -MT dependencies -MF /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/AppDelegate.dia -c /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/AppDelegate.m -o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/AppDelegate.o36"5322C321-F3C2-418E-839C-7C8083A1F334-
+bD7E9E8BE-9FDB-4F70-A254-6A1A02D22FCD
+
+CCompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/KasperScene.o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/KasperScene.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431719611.423859
+e431719611.540061
+r1
+xCompileC
+xbuild/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/KasperScene.o
+x/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/KasperScene.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/KasperScene.m
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/KasperScene.h
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/SkeletonJointsDefinition.h
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/SkeletonPoseDefinition.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/KasperScene.m185"CompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/KasperScene.o Kasper/KasperScene.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf19d6cbb84bbb941^f0308dbb84bbb941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/Kasper/KasperScene.m0000000000000000^3998"CompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/KasperScene.o Kasper/KasperScene.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-generated-files.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-own-target-headers.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-all-target-headers.hmap -iquote /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-project-headers.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/DerivedSources/i386 -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/DerivedSources -F/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator -include /var/folders/xx/knm95ddx5ps40hgxm0x1v7140000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Kasper-Prefix-gkawglrdhynenreplxxmcwngfhiy/Kasper-Prefix.pch -MMD -MT dependencies -MF /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/KasperScene.d --serialize-diagnostics /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/KasperScene.dia -c /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/KasperScene.m -o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/KasperScene.o36"4FB627B3-5FFB-4224-96F1-09135FFAA970-
+bE89E66D6-7764-4F0A-A3E1-710A34823F84
+
+CCompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonDefinition.o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/SkeletonDefinition.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431716300.196517
+e431716300.277070
+r1
+xCompileC
+xbuild/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonDefinition.o
+x/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/SkeletonDefinition.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/SkeletonDefinition.m
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/SkeletonDefinition.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/SkeletonDefinition.m199"CompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonDefinition.o Kasper/SkeletonDefinition.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler666632cc77bbb941^64b248cc77bbb941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/Kasper/SkeletonDefinition.m0000000000000000^4040"CompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonDefinition.o Kasper/SkeletonDefinition.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-generated-files.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-own-target-headers.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-all-target-headers.hmap -iquote /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-project-headers.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/DerivedSources/i386 -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/DerivedSources -F/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator -include /var/folders/xx/knm95ddx5ps40hgxm0x1v7140000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Kasper-Prefix-gkawglrdhynenreplxxmcwngfhiy/Kasper-Prefix.pch -MMD -MT dependencies -MF /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonDefinition.d --serialize-diagnostics /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonDefinition.dia -c /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/SkeletonDefinition.m -o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonDefinition.o36"A2CDEBA9-209D-4E8A-9128-B380350B6852-
+b71F6DA60-A95F-4964-B735-51683483A9E5
+
+CCompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonJointsDefinition.o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/SkeletonJointsDefinition.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431718694.980242
+e431718695.133990
+r1
+xCompileC
+xbuild/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonJointsDefinition.o
+x/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/SkeletonJointsDefinition.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/SkeletonJointsDefinition.m
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/SkeletonJointsDefinition.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/SkeletonJointsDefinition.m211"CompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonJointsDefinition.o Kasper/SkeletonJointsDefinition.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1005fb2681bbb941^484e222781bbb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/Kasper/SkeletonJointsDefinition.m0000000000000000^4076"CompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonJointsDefinition.o Kasper/SkeletonJointsDefinition.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-generated-files.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-own-target-headers.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-all-target-headers.hmap -iquote /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-project-headers.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/DerivedSources/i386 -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/DerivedSources -F/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator -include /var/folders/xx/knm95ddx5ps40hgxm0x1v7140000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Kasper-Prefix-gkawglrdhynenreplxxmcwngfhiy/Kasper-Prefix.pch -MMD -MT dependencies -MF /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonJointsDefinition.d --serialize-diagnostics /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonJointsDefinition.dia -c /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/SkeletonJointsDefinition.m -o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonJointsDefinition.o36"9B5547B1-9320-4EB0-9A08-BD382EA2880E-
+bA1622089-5160-4053-A867-EC43D70BA9FF
+
+CCompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonPoseDefinition.o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/SkeletonPoseDefinition.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431718694.979773
+e431718695.134004
+r1
+xCompileC
+xbuild/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonPoseDefinition.o
+x/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/SkeletonPoseDefinition.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/SkeletonPoseDefinition.m
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/SkeletonPoseDefinition.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/SkeletonPoseDefinition.m200"CompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonPoseDefinition.o SkeletonPoseDefinition.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerff04fb2681bbb941^5c55222781bbb941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/SkeletonPoseDefinition.m0000000000000000^4050"CompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonPoseDefinition.o SkeletonPoseDefinition.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-generated-files.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-own-target-headers.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-all-target-headers.hmap -iquote /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-project-headers.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/DerivedSources/i386 -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/DerivedSources -F/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator -include /var/folders/xx/knm95ddx5ps40hgxm0x1v7140000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Kasper-Prefix-gkawglrdhynenreplxxmcwngfhiy/Kasper-Prefix.pch -MMD -MT dependencies -MF /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonPoseDefinition.d --serialize-diagnostics /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonPoseDefinition.dia -c /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/SkeletonPoseDefinition.m -o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonPoseDefinition.o36"BF4E44D2-D02C-40F7-A61C-BE0A9F88AEF7-
+bA1622089-5160-4053-A867-EC43D70BA9FF
+
+CCompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/ViewController.o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431719661.481279
+e431719661.568939
+r1
+xCompileC
+xbuild/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/ViewController.o
+x/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/ViewController.m
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/ViewController.h
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/KasperScene.h
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/SkeletonPoseDefinition.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/ViewController.m191"CompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/ViewController.o Kasper/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler884a7bed84bbb941^a2b691ed84bbb941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/Kasper/ViewController.m0000000000000000^4016"CompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/ViewController.o Kasper/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-generated-files.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-own-target-headers.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-all-target-headers.hmap -iquote /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-project-headers.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/DerivedSources/i386 -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/DerivedSources -F/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator -include /var/folders/xx/knm95ddx5ps40hgxm0x1v7140000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Kasper-Prefix-gkawglrdhynenreplxxmcwngfhiy/Kasper-Prefix.pch -MMD -MT dependencies -MF /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/ViewController.dia -c /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/ViewController.m -o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/ViewController.o36"76180408-236E-4C4F-A935-6BCC33590B8A-
+b487A95B4-1A29-4760-A842-66C4BD736779
+
+CCompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/main.o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431463085.427453
+e431463085.596261
+r1
+xCompileC
+xbuild/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/main.o
+x/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/main.m
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/main.m171"CompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/main.o Kasper/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5e846dad9ab7b941^6cb098ad9ab7b941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/Kasper/main.m0000000000000000^3956"CompileC build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/main.o Kasper/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-generated-files.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-own-target-headers.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-all-target-headers.hmap -iquote /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-project-headers.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/DerivedSources/i386 -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/DerivedSources -F/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator -include /var/folders/xx/knm95ddx5ps40hgxm0x1v7140000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Kasper-Prefix-gkawglrdhynenreplxxmcwngfhiy/Kasper-Prefix.pch -MMD -MT dependencies -MF /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/main.dia -c /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/main.m -o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/main.o36"3B62624C-CEBB-4C7E-BD47-F209F1C3822A-
+bD7E9E8BE-9FDB-4F70-A254-6A1A02D22FCD
+
+CCompileStoryboard /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/Base.lproj/Main.storyboard
+s431719611.581693
+e431719612.812485
+r1
+xCompileStoryboard
+x/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"CompileStoryboard Kasper/Base.lproj/Main.storyboard51"CompileStoryboard Kasper/Base.lproj/Main.storyboarda0f994bb84bbb941^1100d0bc84bbb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/Kasper/Base.lproj/Main.storyboard0000000000000000^933"CompileStoryboard Kasper/Base.lproj/Main.storyboard    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/Base.lproj/Main.storyboardc /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/Base.lproj/Main.storyboard36"3BACB5AA-3722-480B-B3F6-073235DECE85-
+bE89E66D6-7764-4F0A-A3E1-710A34823F84
+
+CCopyStringsFile /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/en.lproj/InfoPlist.strings Kasper/en.lproj/InfoPlist.strings
+s431463346.569560
+e431463346.571490
+r1
+xCopyStringsFile
+x/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/en.lproj/InfoPlist.strings
+xKasper/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy Kasper/en.lproj/InfoPlist.strings115"CopyStringsFile build/Debug-iphonesimulator/Kasper.app/en.lproj/InfoPlist.strings Kasper/en.lproj/InfoPlist.strings2bdd91b29bb7b941^7b4e92b29bb7b941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/Kasper/en.lproj/InfoPlist.strings0000000000000000^642"CopyStringsFile build/Debug-iphonesimulator/Kasper.app/en.lproj/InfoPlist.strings Kasper/en.lproj/InfoPlist.strings    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/en.lproj -- Kasper/en.lproj/InfoPlist.strings36"D62D210B-52FF-4120-AB7F-7C19DB6FB05C-
+bD755EC0B-84A8-4E13-8779-2C434DAEECBC
+
+CCpResource Kasper/arm@2x.png build/Debug-iphonesimulator/Kasper.app/arm@2x.png
+s431463346.568639
+e431463346.571049
+r1
+xCpResource
+xKasper/arm@2x.png
+xbuild/Debug-iphonesimulator/Kasper.app/arm@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphonesimulator/Kasper.app/arm@2x.png78"CpResource Kasper/arm@2x.png build/Debug-iphonesimulator/Kasper.app/arm@2x.png51a291b29bb7b941^a12e92b29bb7b941^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/arm@2x.png0034a408deffdf42^673"CpResource Kasper/arm@2x.png build/Debug-iphonesimulator/Kasper.app/arm@2x.png    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/arm@2x.png /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app36"0CD60A5C-4FEF-4F0C-87E0-D9B9A05E77B5-
+bD755EC0B-84A8-4E13-8779-2C434DAEECBC
+
+CCpResource Kasper/armJoint@2x.png build/Debug-iphonesimulator/Kasper.app/armJoint@2x.png
+s431466467.039853
+e431466467.040913
+r1
+xCpResource
+xKasper/armJoint@2x.png
+xbuild/Debug-iphonesimulator/Kasper.app/armJoint@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/Kasper.app/armJoint@2x.png88"CpResource Kasper/armJoint@2x.png build/Debug-iphonesimulator/Kasper.app/armJoint@2x.pngc3450ae3a7b7b941^62840ce3a7b7b941^---0#0#1#-19%DVTDocumentLocation2@136"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/armJoint@2x.png0034a408deffdf42^688"CpResource Kasper/armJoint@2x.png build/Debug-iphonesimulator/Kasper.app/armJoint@2x.png    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/armJoint@2x.png /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app36"CFB91EC8-7A2D-46F7-B2CB-28F593E69E4A-
+bB34262A0-56E4-40E5-95F0-CF3A63399E83
+
+CCpResource Kasper/body@2x.png build/Debug-iphonesimulator/Kasper.app/body@2x.png
+s431463346.568462
+e431463346.570550
+r1
+xCpResource
+xKasper/body@2x.png
+xbuild/Debug-iphonesimulator/Kasper.app/body@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/Kasper.app/body@2x.png80"CpResource Kasper/body@2x.png build/Debug-iphonesimulator/Kasper.app/body@2x.png2d9791b29bb7b941^381092b29bb7b941^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/body@2x.png0034a408deffdf42^676"CpResource Kasper/body@2x.png build/Debug-iphonesimulator/Kasper.app/body@2x.png    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/body@2x.png /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app36"131A3ABE-FA06-4A9C-B251-CE0FBE07D279-
+bD755EC0B-84A8-4E13-8779-2C434DAEECBC
+
+CCpResource Kasper/eyes@2x.png build/Debug-iphonesimulator/Kasper.app/eyes@2x.png
+s431714950.763241
+e431714950.798671
+r1
+xCpResource
+xKasper/eyes@2x.png
+xbuild/Debug-iphonesimulator/Kasper.app/eyes@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/Kasper.app/eyes@2x.png80"CpResource Kasper/eyes@2x.png build/Debug-iphonesimulator/Kasper.app/eyes@2x.png3f72c38672bbb941^7d76cc8672bbb941^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/eyes@2x.png0034a408deffdf42^676"CpResource Kasper/eyes@2x.png build/Debug-iphonesimulator/Kasper.app/eyes@2x.png    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/eyes@2x.png /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app36"3D4712DD-3F45-4899-8572-CC7F46EC9530-
+b478A6E61-8A4E-4F9F-BDE1-10260C13E9ED
+
+CCpResource Kasper/head@2x.png build/Debug-iphonesimulator/Kasper.app/head@2x.png
+s431714950.763073
+e431714950.798686
+r1
+xCpResource
+xKasper/head@2x.png
+xbuild/Debug-iphonesimulator/Kasper.app/head@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/Kasper.app/head@2x.png80"CpResource Kasper/head@2x.png build/Debug-iphonesimulator/Kasper.app/head@2x.png726ac38672bbb941^ed7fcc8672bbb941^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/head@2x.png0034a408deffdf42^676"CpResource Kasper/head@2x.png build/Debug-iphonesimulator/Kasper.app/head@2x.png    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/head@2x.png /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app36"1D29BC94-0C98-48A7-A560-A13CCA8F4974-
+b478A6E61-8A4E-4F9F-BDE1-10260C13E9ED
+
+CCpResource Kasper/leg@2x.png build/Debug-iphonesimulator/Kasper.app/leg@2x.png
+s431463346.568312
+e431463346.570798
+r1
+xCpResource
+xKasper/leg@2x.png
+xbuild/Debug-iphonesimulator/Kasper.app/leg@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphonesimulator/Kasper.app/leg@2x.png78"CpResource Kasper/leg@2x.png build/Debug-iphonesimulator/Kasper.app/leg@2x.pngef9191b29bb7b941^362092b29bb7b941^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/leg@2x.png0034a408deffdf42^673"CpResource Kasper/leg@2x.png build/Debug-iphonesimulator/Kasper.app/leg@2x.png    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/leg@2x.png /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app36"FA5D96E8-673A-45A4-8784-4F158309664B-
+bD755EC0B-84A8-4E13-8779-2C434DAEECBC
+
+CCpResource Kasper/legjoint@2x.png build/Debug-iphonesimulator/Kasper.app/legjoint@2x.png
+s431469289.842885
+e431469289.857095
+r1
+xCpResource
+xKasper/legjoint@2x.png
+xbuild/Debug-iphonesimulator/Kasper.app/legjoint@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/Kasper.app/legjoint@2x.png88"CpResource Kasper/legjoint@2x.png build/Debug-iphonesimulator/Kasper.app/legjoint@2x.png78d5d7e9b2b7b941^2b30dce9b2b7b941^---0#0#1#-19%DVTDocumentLocation2@136"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/legjoint@2x.png0034a408deffdf42^688"CpResource Kasper/legjoint@2x.png build/Debug-iphonesimulator/Kasper.app/legjoint@2x.png    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/legjoint@2x.png /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app36"4DB3E544-3215-4102-AE06-169FAE3E24DC-
+b5B5A9BE1-9137-40A3-ADA5-53F2D5997E69
+
+CCpResource Kasper/shoulder@2x.png build/Debug-iphonesimulator/Kasper.app/shoulder@2x.png
+s431463346.570788
+e431463346.572530
+r1
+xCpResource
+xKasper/shoulder@2x.png
+xbuild/Debug-iphonesimulator/Kasper.app/shoulder@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/Kasper.app/shoulder@2x.png88"CpResource Kasper/shoulder@2x.png build/Debug-iphonesimulator/Kasper.app/shoulder@2x.pnga74092b29bb7b941^9f9392b29bb7b941^---0#0#1#-19%DVTDocumentLocation2@136"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/shoulder@2x.png0034a408deffdf42^688"CpResource Kasper/shoulder@2x.png build/Debug-iphonesimulator/Kasper.app/shoulder@2x.png    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/shoulder@2x.png /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app36"6A4D2811-2B51-4277-BF14-4CE1E2F14A6A-
+bD755EC0B-84A8-4E13-8779-2C434DAEECBC
+
+CGenerateDSYMFile /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app.dSYM /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/Kasper
+s431719661.612743
+e431719661.631746
+r1
+xGenerateDSYMFile
+x/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app.dSYM
+x/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/Kasper
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Generate /Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app.dSYM106"GenerateDSYMFile build/Debug-iphonesimulator/Kasper.app.dSYM build/Debug-iphonesimulator/Kasper.app/Kasper18ea9ced84bbb941^f1bba1ed84bbb941^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app.dSYM/0000000000000000^725"GenerateDSYMFile build/Debug-iphonesimulator/Kasper.app.dSYM build/Debug-iphonesimulator/Kasper.app/Kasper    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/Kasper -o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app.dSYM36"46F842B2-5BED-4994-AEE0-3CC4555B85DC-
+b487A95B4-1A29-4760-A842-66C4BD736779
+
+CLd /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/Kasper normal i386
+s431719661.571606
+e431719661.610510
+r1
+xLd
+x/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/Kasper
+xnormal
+xi386
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/Kasper.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/KasperScene.o
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/ViewController.o
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonPoseDefinition.o
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/AppDelegate.o
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/SkeletonJointsDefinition.o
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SpriteKit.framework/SpriteKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Link /Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/Kasper60"Ld build/Debug-iphonesimulator/Kasper.app/Kasper normal i386626792ed84bbb941^8c4c9ced84bbb941^---0#0#1#--1526"Ld build/Debug-iphonesimulator/Kasper.app/Kasper normal i386    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator -F/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator -filelist /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/Kasper.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Objects-normal/i386/Kasper_dependency_info.dat -o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/Kasper36"C9CA367D-BF3C-4657-BEEF-65FCBEC6EDAB-
+b487A95B4-1A29-4760-A842-66C4BD736779
+
+CProcessInfoPlistFile /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/Info.plist /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/Kasper-Info.plist
+s431463347.763379
+e431463347.765162
+r1
+xProcessInfoPlistFile
+x/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/Info.plist
+x/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/Kasper-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Process /Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/Kasper-Info.plist95"ProcessInfoPlistFile build/Debug-iphonesimulator/Kasper.app/Info.plist Kasper/Kasper-Info.plist207dc3b39bb7b941^2ee2c3b39bb7b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/Kasper/Kasper-Info.plist0000000000000000^1008"ProcessInfoPlistFile build/Debug-iphonesimulator/Kasper.app/Info.plist Kasper/Kasper-Info.plist    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/Kasper-Info.plist -genpkginfo /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/assetcatalog_generated_info.plist -o /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app/Info.plist36"9DAA34AB-A5BB-4007-9895-1A9E87E43DC6-
+bD755EC0B-84A8-4E13-8779-2C434DAEECBC
+
+CProcessPCH /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/DerivedData/Kasper/Index/PrecompiledHeaders/Kasper-Prefix-ckducomdjeksywfgkbrtrhraqvdq_ast/Kasper-Prefix.pch.pch Kasper/Kasper-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/xx/knm95ddx5ps40hgxm0x1v7140000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Kasper-Prefix-gkawglrdhynenreplxxmcwngfhiy/Kasper-Prefix.pch.pch Kasper/Kasper-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431463084.154444
+e431463085.425561
+r1
+xProcessPCH
+x/var/folders/xx/knm95ddx5ps40hgxm0x1v7140000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Kasper-Prefix-gkawglrdhynenreplxxmcwngfhiy/Kasper-Prefix.pch.pch
+xKasper/Kasper-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/Kasper/Kasper-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile Kasper/Kasper-Prefix.pch286"ProcessPCH /var/folders/xx/knm95ddx5ps40hgxm0x1v7140000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Kasper-Prefix-gkawglrdhynenreplxxmcwngfhiy/Kasper-Prefix.pch.pch Kasper/Kasper-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc90028ac9ab7b941^e0f26cad9ab7b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/holgerhinzberg/Documents/Eigene%20Dokumente/Development/2014/Kasper/Kasper/Kasper-Prefix.pch0000000000000000^3981"ProcessPCH /var/folders/xx/knm95ddx5ps40hgxm0x1v7140000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Kasper-Prefix-gkawglrdhynenreplxxmcwngfhiy/Kasper-Prefix.pch.pch Kasper/Kasper-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-generated-files.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-own-target-headers.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-all-target-headers.hmap -iquote /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/Kasper-project-headers.hmap -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/DerivedSources/i386 -I/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Kasper.build/Debug-iphonesimulator/Kasper.build/DerivedSources -F/Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/xx/knm95ddx5ps40hgxm0x1v7140000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Kasper-Prefix-gkawglrdhynenreplxxmcwngfhiy/Kasper-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/xx/knm95ddx5ps40hgxm0x1v7140000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Kasper-Prefix-gkawglrdhynenreplxxmcwngfhiy/Kasper-Prefix.pch.d -c /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/Kasper/Kasper-Prefix.pch -o /var/folders/xx/knm95ddx5ps40hgxm0x1v7140000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Kasper-Prefix-gkawglrdhynenreplxxmcwngfhiy/Kasper-Prefix.pch.pch36"906CA9A4-CD23-4A69-88C1-AC51F22DB5EE-
+bD7E9E8BE-9FDB-4F70-A254-6A1A02D22FCD
+
+CTouch /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app
+s431719612.862834
+e431719612.866624
+r1
+xTouch
+x/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Touch /Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app44"Touch build/Debug-iphonesimulator/Kasper.appaaefdcbc84bbb941^2fdcddbc84bbb941^---0#0#1#--457"Touch build/Debug-iphonesimulator/Kasper.app    cd "/Users/holgerhinzberg/Documents/Eigene Dokumente/Development/2014/Kasper"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/holgerhinzberg/Documents/Eigene\ Dokumente/Development/2014/Kasper/build/Debug-iphonesimulator/Kasper.app36"124DC7E7-63B5-42F1-BF8E-A0C5C39A9C4C-
+bE89E66D6-7764-4F0A-A3E1-710A34823F84
+
